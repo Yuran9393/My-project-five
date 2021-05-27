@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/okzoom.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>YuraFrontend</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <input class="nav__check" type="checkbox" id="showmenu"/>
+            <label class="nav__showmenu" for="showmenu">&#9776;</label>
+            <label class="nav__back" for="showmenu"></label>
+            <ul class="menu">
+                <li>
+                    <a class="menu__item" href="#">
+                        Главная
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#about">
+                        Обо мне
+                    </a>
+                <li>
+                    <a class="menu__item" href="#skills">
+                      Навыки
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#portfolio">
+                  Портфолио
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#contacts">
+                  Контакты
+                    </a>
+                </li>
+              <img src="img/RU _ ENG.png" alt="" class="nav_img">
+            </ul>
+          </nav>
+        <div class="promo">
+            <div class="promo_name">
+                <a href="" class="promo_link"> Luttsev <br> Yuriy</a>
+            </div>
+            <h1 class="promo_specialist">
+                UX | Web development <br>27 years old, Temirtau
+            </h1>
+            <img src="img/lang.png" alt="" class="promo_img">
+        </div>
+        <img src="img/myfoto.png" alt="" class="foto">
+        <img src="img/promo_mob.png" alt="" class="foto2">
+    </div>
+</header>
+<section class="about" id="about">
+    <div class="container">
+        <div class="title">
+            Обо мне
+        </div>
+        <div class="about_text">
+            Привет, меня зовут Юра – я Web разработчик из Темиртау. 
+            <br>
+            Мне нравится разрабатываь сайты и всё что с этим связано.
+            <br> <br>
+            Я прошёл обучение на курсах по Frontend разработке 
+            <br>
+            в школе Glo Academy.
+            <br> <br>
+            Готов реализовать различные проекты
+            <br>
+            с отличными людьми.
+        </div>
+    </div>
+</section>
+<section class="skills" id="skills">
+    <div class="container">
+        <div class="title">
+            Навыки
+        </div>
+        <div class="skills_subtitle">
+            Мои навыки с которомы я создаю сайты
+        </div>
+        <div class="skills_imgs">
+            <img src="img/git.png" alt="" class="skills_img small">
+            <img src="img/css.png" alt="" class="skills_img">
+            <img src="img/js.png" alt="" class="skills_img">
+            <img src="img/html.png" alt="" class="skills_img">
+            <img src="img/bootstrap.png" alt="" class="skills_img small">
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="title">
+            Портфолио
+        </div>
+        <div class="sites">
+            <div class="sites_box">
+                <img src="img/site1.PNG" alt="" class="sites_img">
+                <a href="#" class="sites_link">
+                    Мой первый сайт "Creative"
+                </a>
+            </div>
+            <div class="sites_box">
+                <img src="img/site2.PNG" alt="" class="sites_img">
+                <a href="#" class="sites_link">
+                    Мой второй сайт "Грузоперевозки"
+                </a>
+            </div>
+            <div class="sites_box">
+                <img src="img/site3.PNG" alt="" class="sites_img">
+                <a href="#" class="sites_link">
+                    Мой третий сайт "Веб разработка"
+                </a>
+            </div>
+            <div class="sites_box">
+                <img src="img/site4.PNG" alt="" class="sites_img">
+                <a href="#" class="sites_link">
+                   Мой четвёртый сайт Uber
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts" id="contacts">
+    <div class="container">
+        <div class="title">
+            Контакты
+        </div>
+        <div class="contacts_subtitle">
+            Хотите узнать больше или просто поболтать? <br>
+            Пожалуйста!
+        </div>
+        <button class="contacts_btn">
+            <a href="#" class="contacts_link"> 
+                Написать сообщение
+            </a>
+        </button>
+        <div class="contact_imgs">
+            <a href="mailto:y.luttsev@gmail.com" class="link_img">
+                <img class="contact_img" src="img/google.png" alt="">
+            </a>
+            <a href="#" class="link_img">
+                <img contact_img src="img/vk-com.png" alt="">
+            </a>
+            <a href="#" class="link_img">
+                <img contact_img src="img/instagramm.png" alt="">
+            </a>
+        </div>
+        <div class="contact_text">
+             Я в сетях Vk, Instagamm, Google
+        </div>
+    </div>
+</section>
+<!-- <form action="#" id="forms" action="y.luttsev@gmail.com" method="GET">
+    <div class="forms_title">Напишите нам</div>
+    <input type="text" class="forms_item" value="Ваше имя">
+    <input type="text" class="forms_item" value="Ваша почта">
+    <button id="btn" type="submit"> Отправить</button>
+</form>
+<div class="answer">
+    Ваше обращения принято <br>
+    в ближайшее время я с Вами свяжусь
+</div> -->
+<script src="js/script.js"></script>    
+</body>
+</html>
